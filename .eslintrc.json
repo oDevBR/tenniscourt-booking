@@ -4,17 +4,25 @@
     "plugin:prettier/recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:storybook/recommended"
   ],
   "rules": {
-    "no-console": ["error"],
+    "no-console": [
+      "error"
+    ],
     "no-restricted-imports": [
       "error",
       {
-        "patterns": ["@/features/*/*"]
+        "patterns": [
+          "@/features/*/*"
+        ]
       }
     ],
-    "linebreak-style": ["error", "unix"],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
     "react/prop-types": "off",
     "import/order": [
       "error",
@@ -36,12 +44,19 @@
             "position": "before"
           },
           {
-            "pattern": ["next", "next/*"],
+            "pattern": [
+              "next",
+              "next/*"
+            ],
             "group": "external",
             "position": "before"
           }
         ],
-        "pathGroupsExcludedImportTypes": ["react", "next", "next/*"],
+        "pathGroupsExcludedImportTypes": [
+          "react",
+          "next",
+          "next/*"
+        ],
         "newlines-between": "always",
         "alphabetize": {
           "order": "asc",
@@ -54,11 +69,21 @@
     "import/no-named-as-default": "off",
     "react/react-in-jsx-scope": "off",
     "jsx-a11y/anchor-is-valid": "off",
-    "@typescript-eslint/no-unused-vars": ["error"],
-    "@typescript-eslint/explicit-function-return-type": ["off"],
-    "@typescript-eslint/explicit-module-boundary-types": ["off"],
-    "@typescript-eslint/no-empty-function": ["off"],
-    "@typescript-eslint/no-explicit-any": ["off"],
+    "@typescript-eslint/no-unused-vars": [
+      "error"
+    ],
+    "@typescript-eslint/explicit-function-return-type": [
+      "off"
+    ],
+    "@typescript-eslint/explicit-module-boundary-types": [
+      "off"
+    ],
+    "@typescript-eslint/no-empty-function": [
+      "off"
+    ],
+    "@typescript-eslint/no-explicit-any": [
+      "off"
+    ],
     "@typescript-eslint/consistent-type-imports": "error",
     "prettier/prettier": [
       "error",
