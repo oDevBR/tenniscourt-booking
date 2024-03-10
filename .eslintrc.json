@@ -36,12 +36,12 @@
             "position": "before"
           },
           {
-            "pattern": "next",
+            "pattern": ["next", "next/*"],
             "group": "external",
             "position": "before"
           }
         ],
-        "pathGroupsExcludedImportTypes": ["react"],
+        "pathGroupsExcludedImportTypes": ["react", "next", "next/*"],
         "newlines-between": "always",
         "alphabetize": {
           "order": "asc",
