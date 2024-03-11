@@ -2,5 +2,6 @@
 build
 coverage
 public
+.husky
 .next
 node_modules

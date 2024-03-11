@@ -8,6 +8,7 @@ const config: StorybookConfig = {
     '@storybook/addon-essentials',
     '@storybook/addon-onboarding',
     '@storybook/addon-interactions',
+    '@storybook/addon-a11y',
   ],
   framework: {
     name: '@storybook/nextjs',
@@ -32,10 +33,7 @@ const config: StorybookConfig = {
           loader: 'postcss-loader',
           options: {
             postcssOptions: {
-              plugins: [
-                require('tailwindcss'),
-                require('autoprefixer'),
-              ],
+              plugins: [require('tailwindcss'), require('autoprefixer')],
             },
           },
         },

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components/Button Basic smoke-test 1`] = `
+{
+  "checked": undefined,
+  "children": [
+    {
+      "checked": undefined,
+      "children": undefined,
+      "name": "Basic",
+      "pressed": undefined,
+      "role": "button",
+      "value": undefined,
+    },
+  ],
+  "name": "components-button--basic",
+  "pressed": undefined,
+  "role": "WebArea",
+  "value": undefined,
+}
+`;
