@@ -15,9 +15,11 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "test-storybook": "test-storybook",
-    "chromatic": "npx chromatic --project-token=chpt_704001908b3aada"
+    "chromatic": "npx chromatic --project-token=chpt_704001908b3aada",
+    "chromatic-ci": "chromatic --exit-zero-on-changes"
   },
   "dependencies": {
+    "@highlight-run/next": "^7.4.2",
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
