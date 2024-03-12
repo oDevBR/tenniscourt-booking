@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <a href="#-the-challenge">The challenge</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-links">Links</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -28,14 +28,12 @@
 
 </br>
 
-## 📖 The challenge
-
-[Minthouse Take-Home Challenge](https://minthousedev.notion.site/Minthouse-Take-Home-Challenge-61f814be6b0d4a258f7717ec46eda760?pvs=4)
+## 🌐 Links
+- [Deploy](https://tenniscourt-booking.vercel.app/)
+- [Storybook](https://rb.gy/umm7zu)
+- [The challenge](https://minthousedev.notion.site/Minthouse-Take-Home-Challenge-61f814be6b0d4a258f7717ec46eda760?pvs=4)
 
 ## 🚀 Technologies
-
-Technologies that I used and why?
-
 - [Typescript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)
   - [ReactJS](https://reactjs.org/)
