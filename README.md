@@ -28,11 +28,6 @@
 
 </br>
 
-## 🌐 Links
-- [Deploy](https://tenniscourt-booking.vercel.app/)
-- [Storybook](https://rb.gy/umm7zu)
-- [The challenge](https://minthousedev.notion.site/Minthouse-Take-Home-Challenge-61f814be6b0d4a258f7717ec46eda760?pvs=4)
-
 ## 🚀 Technologies
 - [Typescript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)
